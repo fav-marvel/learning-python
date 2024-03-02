@@ -1,14 +1,15 @@
 def add(a, b):
 	"""Adds two numbers"""
-	return a+b
+	return sum(a,b)
 
 def multiply(a, b):
 	"""Multiplys two numbesr"""
-	return a*b
+	return mul(a, b)
 
 def divide(a, b):
 	"""Divides two numbers"""
-	return a/b
+	return div(a, b)
 
 def subtract(a, b):
-	returrn b - a
+	"""Subtracts one number from another"""
+	return sub(a, b)
