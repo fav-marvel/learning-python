@@ -13,3 +13,7 @@ def divide(a, b):
 def subtract(a, b):
 	"""Subtracts one number from another"""
 	return sub(a, b)
+
+def mode(a, b):
+	"""gives the mode of 2 numbers"""
+	return a%b
