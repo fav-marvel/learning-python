@@ -17,3 +17,11 @@ def subtract(a, b):
 def mode(a, b):
 	"""gives the mode of 2 numbers"""
 	return a%b
+
+def max_num(a, b):
+	"""returns maximum number"""
+	if a > b:
+		return a
+	else:
+		return b
+'''Tenary operators in python'''
